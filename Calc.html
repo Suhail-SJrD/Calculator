@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Linking Css File-->
+    <link rel="stylesheet" href="Calc.css">
+
+    <!-- Linking FaveIcon -->
+    <link rel="shortcut icon" href="/Images/Logo.avif" type="image/x-icon">
+
+    <title>Basic Calculator</title>
+</head>
+<body>
+    
+    <div class="Main_Container">
+        <div class="Sub_Container">
+            <div class="Answer_Container">
+                <input type="text" placeholder="0" id="Result">
+            </div>
+    
+            <div class="Operations_container">
+                <div class="First_Row">
+                    <button class="button" type="submit" id="One" onclick="one()">1</button>
+                    <button class="button" type="submit" id="Two" onclick="two()">2</button>
+                    <button class="button" type="submit" id="Three" onclick="three()">3</button>
+                    <button class="button" type="submit" id="Four" onclick="four()">4</button>
+                </div>
+    
+                <!-- Second Row -->
+    
+    
+                <div class="Second_Row">
+                    <button class="button" type="submit" id="Five" onclick="five()">5</button>
+                    <button class="button" type="submit" id="Six" onclick="six()">6</button>
+                    <button class="button" type="submit" id="Seven" onclick="seven()">7</button>
+                    <button class="button"  type="submit" id="Eigth" onclick="eigth()">8</button>
+                </div>
+    
+                <!--Third Row-->
+    
+                <div class="Third_row">
+                    <button class="button" type="submit" id="Nine" onclick="nine()">9</button>
+                    <button class="button" type="submit" id="Zero" onclick="zero()">0</button>
+                    <button class="button" type="reset" onclick="clear()" id="Ac">AC</button>
+                    <button class="button" type="submit" onclick="Equels()" id="Equels">=</button>
+                </div>
+    
+                <!--Fourth Row-->
+    
+                <div class="Fourth_row">
+                    <button class="button" type="submit" id="Additon" onclick="add()">+</button>
+                    <button class="button" type="submit" id="Subraction" onclick="minuss()">-</button>
+                    <button class="button" type="submit" id="Division" onclick="div()">/</button>
+                    <button class="button" type="submit" id="Modlo" onclick="mod()">%</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Linking the JavaScript File -->
+
+    <script src="Calc.js"></script>
+
+</body>
+</html> 
